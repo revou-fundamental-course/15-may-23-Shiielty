@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Kalkulator Matematik Persegi & Persegi Panjang</title>
+  </head>
+  <body>
+    <header>
+      <h1>Katik <span>Kalkulator Matematik</span></h1>
+    </header>
+
+    <main>
+      <h2>Welcome to Katik</h2>
+      <p>Hai sobat, Selamat datang di Katik :)</p>
+      <p>
+        Sebuah web apps sederhana yang bergungsi untuk menghitung nilai luas dan
+        keliling bangun datar.
+      </p>
+
+      <section>
+        <h3>Luas Persegi</h3>
+        <img src="" alt="" />
+        <p>Rumus Luas Persegi yaitu:</p>
+        <pre>
+          <code>L = S x S</code>
+        </pre>
+
+        <p>Dimana:</p>
+        <p>L = Luas</p>
+        <p>S = Sisi</p>
+
+        <form class="hitung-luas">
+          <div class="calc-header">Hitung Luas Persegi</div>
+          <label for="sisi-luas">Sisi:</label>
+          <input type="text" name="sisi-luas" />
+          <div id="luas-output-wrapper">
+            <p>L = S x S</p>
+            <p id="hasil-luas"></p>
+            <p>L = <span id="luas_output"></span></p>
+          </div>
+          <button type="button" name="hitung-luas">Hitung</button>
+        </form>
+      </section>
+
+      <section>
+        <h3>Keliling Persegi</h3>
+        <img src="" alt="" />
+        <p>Rumus Keliling Persegi yaitu:</p>
+        <pre>
+          <code>K = 4 x S</code>
+        </pre>
+
+        <p>Dimana:</p>
+        <p>K = Keliling</p>
+        <p>S = Sisi</p>
+
+        <form class="hitung-keliling">
+          <div class="calc-header">Hitung Luas Persegi</div>
+          <label for="sisi-keliling">Sisi:</label>
+          <input type="text" name="sisi-keliling" />
+          <div id="keliling-output-wrapper">
+            <p>K = 4 x S</p>
+            <p id="hasil-keliling"></p>
+            <p>K = <span id="keliling_output"></span></p>
+          </div>
+          <button type="button" name="hitung-keliling">Hitung</button>
+        </form>
+      </section>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

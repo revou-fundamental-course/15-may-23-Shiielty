@@ -1,0 +1,92 @@
+:root {
+  --blue: rgb(95, 95, 250);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(230, 230, 230);
+}
+
+header {
+  padding: 30px 0;
+  background-color: var(--blue);
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+}
+
+h1 > span {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+main {
+  background-color: white;
+  width: 90%;
+  max-width: 700px;
+  margin: 20px auto;
+  box-shadow: rgb(200, 200, 200) 0 5px 10px 10px;
+  padding-bottom: 30px;
+}
+
+main > h2,
+main > p {
+  text-align: center;
+}
+
+h2 {
+  padding: 20px 0;
+}
+
+section {
+  border: 1px solid var(--blue);
+  margin: 50px 30px;
+}
+
+section > p {
+  padding: 0 30px;
+}
+
+h3 {
+  padding: 20px 0;
+  background-color: var(--blue);
+  color: white;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid black;
+  margin: 20px 0;
+}
+
+.calc-header {
+  padding: 20px 0;
+  font-size: 1.3rem;
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 5px;
+}
+
+form > button {
+  background-color: var(--blue);
+  border: none;
+  color: white;
+  padding: 0.5em 1em;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+#luas-output-wrapper,
+#keliling-output-wrapper {
+  display: none;
+}
